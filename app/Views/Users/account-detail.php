@@ -96,19 +96,7 @@
                             <input class="tf-field-input tf-input"  type="file" id="property6" name="image" accept="image/">
                             <label class="tf-field-label fw-4 text_black-2" for="property6">Image</label>   
                         </div>
-                        <h6 class="mb_20">Password Change</h6>
-                        <div class="tf-field style-1 mb_30">
-                            <input class="tf-field-input tf-input" placeholder=" " type="password" id="property7" name="current-password">
-                            <label class="tf-field-label fw-4 text_black-2" for="property7">Current password</label>
-                        </div>
-                        <div class="tf-field style-1 mb_30">
-                            <input class="tf-field-input tf-input" placeholder=" " type="password" id="property8" name="new-password">
-                            <label class="tf-field-label fw-4 text_black-2" for="property8">New password</label>
-                        </div>
-                        <div class="tf-field style-1 mb_30">
-                            <input class="tf-field-input tf-input" placeholder=" " type="password" id="property9" name="confirm-password">
-                            <label class="tf-field-label fw-4 text_black-2" for="property9">Confirm password</label>
-                        </div>
+                        
                         <div class="mb_20">
                             <button type="submit" class="tf-btn w-100 radius-3 btn-fill animate-hover-btn justify-content-center">Save Changes</button>
                         </div>
