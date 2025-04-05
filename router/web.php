@@ -2,7 +2,7 @@
 $role = isset($_GET['role']) ? $_GET['role'] : "user";
 $act = isset($_GET['act']) ? $_GET['act'] : "";
 
-
+// choose role
 if($role == "user"){
  switch($act){
     case '':{

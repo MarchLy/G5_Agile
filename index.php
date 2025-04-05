@@ -38,5 +38,6 @@ include 'app/Controllers/Users/DashboardController.php';
 const BASE_URL = "http://localhost/DuAn1/" ;
 //Router
 include 'router/web.php';
+// Router test
 
 //echo password_hash("123456", PASSWORD_BCRYPT);
