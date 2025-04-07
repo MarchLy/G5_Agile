@@ -117,19 +117,19 @@ if($role == "user"){
  }
 }else{
 switch($act){
-    // http://localhost/DuAn1/?role=admin&act=home
+    // http://localhost/Agile/?role=admin&act=home
     case 'home' :{
         $homeController = new HomeController();
         $homeController->dashboard();
         break;
     }
-    // http://localhost/DuAn1/?role=admin&act=login
+    // http://localhost/Agile/?role=admin&act=login
     case 'login' :{
         $homeController = new LoginController();
         $homeController->login();
         break;
     }
-    // http://localhost/DuAn1/?role=admin&act=post-login
+    // http://localhost/Agile/?role=admin&act=post-login
 
     case 'post-login' :{
         $homeController = new LoginController();

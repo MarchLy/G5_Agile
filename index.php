@@ -35,7 +35,7 @@ include 'app/Controllers/Admin/OrderController.php';
 include 'app/Controllers/Users/LoginUserController.php';
 include 'app/Controllers/Users/DashboardController.php';
 
-const BASE_URL = "http://localhost/DuAn1/" ;
+const BASE_URL = "http://localhost/Agile/" ;
 //Router
 include 'router/web.php';
 // Router test
